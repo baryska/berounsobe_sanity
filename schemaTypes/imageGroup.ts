@@ -26,20 +26,6 @@ const imageGroup: SchemaTypeDefinition = {
         {
           type: 'image',
           options: { hotspot: true },
-          fields: [
-            {
-              name: 'caption',
-              type: 'string',
-              title: 'Caption',
-              description: 'Short description of the image.',
-            },
-            {
-              name: 'alt',
-              type: 'string',
-              title: 'Alt Text',
-              description: 'Alternative text for accessibility.',
-            },
-          ],
         },
       ],
     },
