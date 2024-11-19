@@ -18,6 +18,18 @@ const imageGroup: SchemaTypeDefinition = {
       description: 'A short description of the group.',
     },
     {
+      name: 'type',
+      type: 'text',
+      title: 'Group Type',
+      description: 'A type of the group.',
+    },
+    {
+      name: 'key',
+      type: 'number',
+      title: 'Group Key',
+      description: 'A key of the group.',
+    },
+    {
       name: 'images',
       type: 'array',
       title: 'Images',
